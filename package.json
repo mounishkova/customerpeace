@@ -7,9 +7,6 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node index.js"
   },
-  "engines": {
-    "node": "4.1.1"
-  },
   "author": "",
   "license": "ISC",
   "dependencies": {
@@ -17,5 +14,7 @@
     "nodemon": "^2.0.20",
     "sqlite": "^4.1.2",
     "sqlite3": "^5.1.2"
+  },"engines": {
+    "node": "16.14.0"
   }
 }
