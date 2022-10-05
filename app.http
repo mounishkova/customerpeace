@@ -1,0 +1,49 @@
+###
+GET http://localhost:3000/users/
+
+###
+
+GET http://localhost:3000/users/501/
+
+###
+
+
+GET http://localhost:3000/users?page=0&limit=10&name=sa&sort=-age
+###
+
+DELETE  http://localhost:3000/users/501/
+
+#####
+
+POST http://localhost:3000/users/
+Content-Type: application/json
+
+{
+   
+  "firstName": "tfed78",
+  "lastName": "bjsfb77",
+  "companyName": "zhauduwb",
+  "city": "sncj",
+  "state": "JIs",
+  "zip": 5877743,
+  "email": "do78phdine_darakjy23@darakjy.org",
+  "web": "http://www.dandpooayjeffreyaeqsp.com",
+  "age": 41
+}
+
+
+#####
+
+PUT http://localhost:3000/users/506/
+Content-Type: application/json
+
+{
+  "first_name": "kavron",
+  "last_name": "jemmi",
+  "age": 40
+}
+
+####
+
+
+##
